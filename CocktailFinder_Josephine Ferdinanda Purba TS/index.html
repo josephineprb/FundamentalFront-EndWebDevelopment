@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cocktail Finder</title>
+        <link rel="stylesheet" href="src/script/styles/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="appBar" class="app-bar">
+                <h2>Cocktail</h2>
+            </div>
+        </header>
+        <main>
+            <div id="search-container" class="search-container">
+                <input placeholder="Search Cocktails" id="searchElement" type="search">
+                <button id="searchButtonElement" type="submit">Search</button>
+            </div>
+            <div id="cocktailList"></div>
+        </main>
+        
+        <script src="script/data/cocktails.js"></script>
+        <script src="script/data/data-source.js"></script>
+        <script src="script/view/main.js"></script>
+        <script src="app.js"></script>       
+    </body>
+</html>

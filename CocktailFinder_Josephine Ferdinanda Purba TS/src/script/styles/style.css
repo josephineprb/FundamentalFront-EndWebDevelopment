@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+@import 'appbar.css';
+@import 'cocktaillist.css';
+@import 'searchbar.css';
+
+*{
+  font-family: 'Nanum Myeongjo', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  background-color: #F3E8FF;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}

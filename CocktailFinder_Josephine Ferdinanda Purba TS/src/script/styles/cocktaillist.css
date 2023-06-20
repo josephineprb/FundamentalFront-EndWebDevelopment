@@ -1,0 +1,47 @@
+#cocktailList {
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+#cocktailList > .placeholder {
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cocktail {
+  margin-bottom: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.cocktail .str-drink-thumb-cocktail {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cocktail-info {
+  padding: 24px;
+  text-align: justify;
+  color: white;
+  background-color: #89375F;
+}
+
+.cocktail-info > h2 {
+  font-weight: lighter;
+}
+
+.cocktail-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10; 
+}
